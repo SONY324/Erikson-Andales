@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around; /* Adjusts spacing between items */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Adds gap between items */
+  }
+  
+  .box {
+    background-color: #3498db;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
